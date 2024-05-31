@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/main"
+android:background="#DCC7E6"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:id="@+id/btnMenu"
+        android:src="@drawable/menu3"
+        android:layout_margin="30sp"/>
+
+    <TextView
+        android:id="@+id/txtquotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Quotesapp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="30dp"/>
+
+</LinearLayout>
+    
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentfram"/>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:id="@+id/bottomappbar"
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="50dp"
+        android:backgroundTint="#F3C5C2">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:menu="@menu/bottom_menu"
+            app:labelVisibilityMode="labeled"
+            android:background="#F3C5C2"/>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+<com.google.android.material.navigation.NavigationView
+    app:headerLayout="@layout/drawer_header"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:id="@+id/navigationDrawer"
+    android:layout_gravity="start"
+    app:menu="@menu/drawer_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

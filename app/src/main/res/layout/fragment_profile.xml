@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+
+
+    <RelativeLayout
+        android:layout_width="180sp"
+        android:layout_height="1009dp"
+        android:id="@+id/main"
+        android:background="#F3C5C2">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="170sp"
+            android:layout_height="200sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30sp"
+            android:src="@drawable/shivu"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shivani Joshi"
+            android:gravity="center"
+            android:layout_marginTop="230dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="250sp"
+        android:layout_height="300sp"
+        android:layout_marginLeft="190dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Profile"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45sp"
+            android:text="Profession"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="75sp"
+            android:text="Android Developer"
+            android:textSize="15sp"
+            android:textColor="#F44336"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="105sp"
+            android:text="Contact"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="135sp"
+            android:text="+91 7984222499"
+            android:textSize="15sp"
+            android:textColor="#F44336"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="165sp"
+            android:text="Location"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="195sp"
+            android:text="Surat , Gujrat"
+            android:textSize="15sp"
+            android:textColor="#F44336"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="225sp"
+            android:text="Email id"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="255sp"
+            android:text="joshishivani516@gmail.com"
+            android:textSize="15sp"
+            android:textColor="#F44336"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

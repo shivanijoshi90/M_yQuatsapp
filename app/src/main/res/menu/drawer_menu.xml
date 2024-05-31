@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mshare"
+        android:title="Share App"
+        android:icon="@drawable/img_6"/>
+
+    <item
+        android:id="@+id/mrate"
+        android:title="Rate Us"
+        android:icon="@drawable/img_7"/>
+    <item
+        android:id="@+id/mtheme"
+        android:title="Theme"
+        android:icon="@drawable/img_8"/>
+
+    <item
+        android:id="@+id/mset"
+        android:title="Sent"
+        android:icon="@drawable/img_9"/>
+    <item
+        android:id="@+id/mstarred"
+        android:title="Starred"
+        android:icon="@drawable/img_10"/>
+
+    <item
+        android:id="@+id/msetting"
+        android:title="Setting"
+        android:icon="@drawable/img_11"/>
+
+
+</menu>
